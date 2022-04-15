@@ -32,7 +32,7 @@ def index():
             blogT = blog.blogSectionExpander(prompt)
             blogExpanded = blogT.replace('\n', '<br>')
 
-<br>
+
     return render_template('index.html', **locals())
 
 
